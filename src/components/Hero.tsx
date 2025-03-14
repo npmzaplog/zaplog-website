@@ -101,7 +101,7 @@ const Hero: React.FC = () => {
       
       const createLoggerFuncCall = lineText.length > 15 ? lineText.substring(15, 30) : "";
 
-      const comment = lineText.length > 30 ? lineText.substring(30) : "";
+      // const comment = lineText.length > 30 ? lineText.substring(30) : "";
 
       return (
         <>

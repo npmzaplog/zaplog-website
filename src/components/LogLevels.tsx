@@ -91,7 +91,7 @@ logger.debug("Redis cache hit ratio: 92%", "CacheService");`
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 max-w-6xl mx-auto">
           <div className="lg:col-span-5">
             <div className="bg-slate-800/50 backdrop-blur-sm rounded-xl border border-slate-700 overflow-hidden">
-              {logLevels.map((level, index) => (
+              {logLevels.map((level) => (
                 <button
                   key={level.id}
                   className={`w-full text-left p-4 border-b border-slate-700 last:border-b-0 transition-colors hover:bg-slate-700/50 ${activeLevel === level.id ? 'bg-slate-700/50' : ''}`}

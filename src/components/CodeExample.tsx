@@ -1,7 +1,7 @@
 // src/components/CodeExample.tsx
 import React, { useState } from "react";
 import { useInView } from "react-intersection-observer";
-import { Zap, Terminal } from "lucide-react";
+import {  Terminal } from "lucide-react";
 import { notify } from "@/lib/notify";
 
 const CodeExample: React.FC = () => {
